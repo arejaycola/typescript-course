@@ -13,7 +13,7 @@ interface Sync<T> {
 }
 
 interface Events {
-	on(eventName: string, calback: Callback);
+	on(eventName: string, calback: Callback): void;
 	trigger(eventName: string): void;
 }
 
