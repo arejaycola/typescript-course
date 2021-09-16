@@ -71,6 +71,6 @@ function printHousesOrCars<T extends Printable>(arr: T[]): void {
 	}
 }
 
-printHousesOrCars([1,3,4,5,56]);
+// printHousesOrCars([1,3,4,5,56]);
 
 printHousesOrCars<Car2 | House>([new Car2(), new House(), new House()])
